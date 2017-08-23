@@ -7,7 +7,7 @@
     "bs-platform": "https://github.com/bsansouci/bsb-native"
   },
   "bin": {
-    "ppx_metaquot_403": "./lib/bs/native/metaquot_403.native"
+    "ppx_metaquot_403": "./ppx_metaquot_403.sh"
   },
   "scripts": {
     "preinstall": "bsb -make-world -backend native"
