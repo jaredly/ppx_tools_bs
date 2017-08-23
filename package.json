@@ -1,0 +1,18 @@
+{
+  "name": "ppx_tools_bs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bs-platform": "https://github.com/bsansouci/bsb-native"
+  },
+  "bin": {
+    "ppx_metaquot_403": "./lib/bs/native/metaquot_403.native"
+  },
+  "scripts": {
+    "preinstall": "bsb -make-world"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
