@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "bs-platform": "https://github.com/bsansouci/bsb-native"
+    "bs-platform": "git+https://github.com/bsansouci/bsb-native"
   },
   "bin": {
     "ppx_metaquot_403": "./ppx_metaquot_403.sh"
   },
   "scripts": {
-    "install": "bsb -make-world -backend native"
+    "postinstall": "bsb -make-world -backend native"
   },
   "keywords": [],
   "author": "",
