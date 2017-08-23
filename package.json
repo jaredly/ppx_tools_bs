@@ -10,7 +10,7 @@
     "ppx_metaquot_403": "./ppx_metaquot_403.sh"
   },
   "scripts": {
-    "preinstall": "bsb -make-world -backend native"
+    "install": "bsb -make-world -backend native"
   },
   "keywords": [],
   "author": "",
