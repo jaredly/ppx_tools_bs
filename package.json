@@ -10,7 +10,7 @@
     "ppx_metaquot_403": "./lib/bs/native/metaquot_403.native"
   },
   "scripts": {
-    "preinstall": "bsb -make-world"
+    "preinstall": "bsb -make-world -backend native"
   },
   "keywords": [],
   "author": "",

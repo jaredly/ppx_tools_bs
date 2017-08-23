@@ -1,11 +1,7 @@
 {
   "name": "ppx_tools",
   "version": "0.1.0",
-  "sources": [
-    {
-      "dir": "./src",
-    }
-  ],
+  "sources": ["./src"],
   "entries": [
     {"kind": "native", "main": "Metaquot_403"}
   ],
