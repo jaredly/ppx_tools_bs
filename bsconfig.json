@@ -3,13 +3,8 @@
   "version": "0.1.0",
   "sources": ["./src"],
   "entries": [
-    {"kind": "native", "main": "Metaquot_403"}
+    {"kind": "native", "main": "Ppx_metaquot"}
   ],
   "bsc-flags": ["-w", "-40", "-w", "-30", "-bs-super-errors"],
-  "ocaml-dependencies": [],
-  "ocamlfind-dependencies": [
-    "ppx_tools_versioned.metaquot_403",
-    "ppx_tools_versioned",
-    "ocaml-migrate-parsetree"
-  ],
+  "ocaml-dependencies": ["compiler-libs"]
 }
